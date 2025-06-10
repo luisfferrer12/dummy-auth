@@ -9,13 +9,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api")
 @RequiredArgsConstructor
 public class AuthController {
 
     private final AuthService authService;
 
-    @PostMapping("/login")
+    @PostMapping("/auth/login")
     public ResponseEntity<UserInfo> login(@RequestBody LoginRequest request) {
         UserInfo userInfo = authService.loginAndLog(request);
         return ResponseEntity.ok(userInfo);

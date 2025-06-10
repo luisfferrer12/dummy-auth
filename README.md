@@ -59,6 +59,7 @@ curl -X POST http://localhost:8080/api/auth/login \
 
 Cuando el login es exitoso, se guarda en la tabla login_log:
 
+id (Se genera automáticamente)
 username
 login_time
 access_token
