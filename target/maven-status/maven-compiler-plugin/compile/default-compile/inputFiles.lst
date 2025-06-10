@@ -1,0 +1,10 @@
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\controller\AuthController.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\dto\LoginRequest.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\dto\LoginResponse.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\dto\UserInfo.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\dto\UserList.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\entity\LoginLog.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\feign\DummyClient.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\PruebaTelefonicaApplication.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\repository\LoginLogRepository.java
+C:\Users\pipef\Documents\Stefanini\telefonica\dummy-auth\src\main\java\com\telefonica\service\AuthService.java

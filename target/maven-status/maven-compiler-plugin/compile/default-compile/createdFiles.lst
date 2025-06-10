@@ -1,0 +1,10 @@
+com\telefonica\repository\LoginLogRepository.class
+com\telefonica\entity\LoginLog.class
+com\telefonica\dto\UserList.class
+com\telefonica\feign\DummyClient.class
+com\telefonica\controller\AuthController.class
+com\telefonica\dto\LoginResponse.class
+com\telefonica\dto\UserInfo.class
+com\telefonica\PruebaTelefonicaApplication.class
+com\telefonica\dto\LoginRequest.class
+com\telefonica\service\AuthService.class

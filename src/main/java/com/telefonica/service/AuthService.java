@@ -3,6 +3,7 @@ package com.telefonica.service;
 import com.telefonica.dto.LoginRequest;
 import com.telefonica.dto.LoginResponse;
 import com.telefonica.dto.UserInfo;
+import com.telefonica.dto.UserList;
 import com.telefonica.entity.LoginLog;
 import com.telefonica.feign.DummyClient;
 import com.telefonica.repository.LoginLogRepository;
@@ -50,5 +51,10 @@ public class AuthService {
         loginLogRepository.save(log);
 
         return userInfo;
+    }
+
+    public UserList getAllUsers() {
+        ResponseEntity<UserList> users = dummyClient.getUsers();
+        return users.getBody();
     }
 }
