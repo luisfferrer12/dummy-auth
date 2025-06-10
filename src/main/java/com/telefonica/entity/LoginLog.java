@@ -19,9 +19,9 @@ public class LoginLog {
     @Column(name = "login_time")
     private LocalDateTime loginTime;
 
-    @Column(name = "access_token")
+    @Column(name = "access_token", length = 2048)
     private String accessToken;
 
-    @Column(name = "refresh_token")
+    @Column(name = "refresh_token", length = 2048)
     private String refreshToken;
 }

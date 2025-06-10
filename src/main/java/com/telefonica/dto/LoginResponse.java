@@ -6,7 +6,7 @@ public record LoginResponse(
         int id,
         String username,
         String email,
-        @JsonProperty("token") String accessToken,
+        @JsonProperty("accessToken") String accessToken,
         @JsonProperty("refreshToken") String refreshToken
 ) {
 

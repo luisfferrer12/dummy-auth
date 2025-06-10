@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 @FeignClient(name = "dummyClient", url = "https://dummyjson.com")
 public interface DummyClient {
 
-    @PostMapping(value = "/auth/login", consumes = "application/json")
+    @PostMapping(value = "/auth/login")
     ResponseEntity<LoginResponse> login(@RequestBody LoginRequest request);
 
     @GetMapping(value = "/auth/me")

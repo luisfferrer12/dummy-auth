@@ -31,10 +31,10 @@ public class AuthService {
         String accessToken = response.accessToken();
 
         // Paso 2: get authenticated user info
-        String cookie = "Authorization=" + accessToken;
+        String cookie = "accessToken=" + accessToken;
         ResponseEntity<UserInfo> meResponse = dummyClient.getMe(cookie);
 
-        if (!meResponse.getStatusCode().is2xxSuccessful() || meResponse.getBody() == null) {
+        if (meResponse == null || !meResponse.getStatusCode().is2xxSuccessful() || meResponse.getBody() == null) {
             throw new RuntimeException("No se pudo obtener información del usuario");
         }
 
